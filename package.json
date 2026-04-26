@@ -1,0 +1,28 @@
+{
+  "name": "pi-agent-mind",
+  "version": "1.0.0",
+  "description": "Memory and insight extraction extension for pi coding agent",
+  "main": "src/index.ts",
+  "keywords": [
+    "pi",
+    "agent",
+    "mind",
+    "insights",
+    "memory"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "vitest": "^1.2.0"
+  },
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  }
+}
