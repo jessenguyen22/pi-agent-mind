@@ -1,17 +1,9 @@
 {
 	"name": "@jessenguyen22/pi-agent-mind",
-	"version": "1.0.2",
-	"description": "Self-improving AI agent extension for pi coding agent - closed-loop learning system with insight extraction, memory consolidation, and autonomous improvement",
-	"main": "src/index.ts",
+	"version": "1.0.5",
+	"description": "Self-improving AI agent extension for pi coding agent - closed-loop learning system with insight extraction and memory management",
+	"main": "src/index.js",
 	"type": "module",
-	"scripts": {
-		"test": "vitest",
-		"test:run": "vitest run",
-		"test:coverage": "vitest run --coverage",
-		"lint": "eslint src/",
-		"lint:fix": "eslint src/ --fix",
-		"ci": "npm run lint && npm run test"
-	},
 	"keywords": [
 		"pi",
 		"pi-extension",
@@ -19,21 +11,14 @@
 		"mind",
 		"insights",
 		"memory",
-		"self-improvement",
-		"learning"
+		"self-improvement"
 	],
 	"author": "Shopiflame",
 	"license": "MIT",
 	"pi": {
 		"extensions": [
-			"./src/index.ts"
+			"./src/index.js"
 		]
-	},
-	"dependencies": {},
-	"devDependencies": {
-		"@types/node": "^20.0.0",
-		"eslint": "^9.0.0",
-		"vitest": "^1.2.0"
 	},
 	"publishConfig": {
 		"access": "public",
