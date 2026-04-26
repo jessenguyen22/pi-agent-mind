@@ -7,7 +7,10 @@
 	"scripts": {
 		"test": "vitest",
 		"test:run": "vitest run",
-		"test:coverage": "vitest run --coverage"
+		"test:coverage": "vitest run --coverage",
+		"lint": "eslint src/",
+		"lint:fix": "eslint src/ --fix",
+		"ci": "npm run lint && npm run test"
 	},
 	"keywords": [
 		"pi",
@@ -29,6 +32,7 @@
 	"dependencies": {},
 	"devDependencies": {
 		"@types/node": "^20.0.0",
+		"eslint": "^9.0.0",
 		"vitest": "^1.2.0"
 	},
 	"publishConfig": {
