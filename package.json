@@ -1,6 +1,6 @@
 {
 	"name": "@jessenguyen22/pi-agent-mind",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Self-improving AI agent extension for pi coding agent - closed-loop learning system with insight extraction, memory consolidation, and autonomous improvement",
 	"main": "src/index.ts",
 	"type": "module",
